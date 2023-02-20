@@ -6,15 +6,15 @@ import { BiCommentDetail } from "react-icons/bi";
 import { useEffect, useState } from "react";
 
 const Testimonials = () => {
-  const [testimonials, setTestimonials] = useState();
-  const [items, setItems] = useState();
+  const [testimonials, setTestimonials] = useState({});
+  const [items, setItems] = useState({});
  
   useEffect(() => {
-    if(testimonials!==undefined){
+   // if(testimonials!==undefined){
     fetch(`https://jsonplaceholder.typicode.com/${testimonials}`)
     .then(response => response.json())
     .then(json => setItems(json));
-  }    
+ // }    
 },[testimonials]);
   return (
     <div>           
