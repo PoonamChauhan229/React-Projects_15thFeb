@@ -1,0 +1,46 @@
+.App{
+  background-color:rgb(3, 3, 77);
+  margin: auto;
+  /* height: 100vh; */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+
+  box-shadow: 5px 5px 5px 5px;
+  border:1px solid orange;
+  width: 50%;
+  margin-top: 100px; 
+}
+input{
+  margin-left: 19%;
+  margin-right: 10px;
+  padding: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  border:2px solid black;
+  border-radius: 5%;
+}
+button,p{
+  background-color: green;
+  padding:10px;
+  border: none;
+  color: white;
+  border-radius: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.flex{
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin-top: 2%;
+}
+p{
+  margin:0;
+  padding:0;
+  padding-left: 21.2%;
+  padding-right: 22.4%;
+  margin-left: 19%;
+  margin-right: 12px;
+  background-color: white;
+  color: black;
+}
